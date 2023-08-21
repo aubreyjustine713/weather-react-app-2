@@ -1,0 +1,15 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecastTemperatures {
+  display: block;
+}
+.WeatherForecastTemperaturesMin {
+  opacity: 0.7;
+}
+.WeatherForecast .Icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
