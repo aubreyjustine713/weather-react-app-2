@@ -12,12 +12,14 @@ export default function WeatherForecast(props) {
     setLoaded(true);
   }
   if (loaded) {
-    console.log(forecast);
     return (
       <div className="WeatherForecast">
         <div className="row">
           <div className="col">
-            <WeatherForecastDay data={forecast[0]} />
+            <WeatherForecastDay
+              data={forecast[0]}
+              icon={`https://openweathermap.org/img/wn/${forecast[0].weather[0].icon}.png`}
+            />
           </div>
         </div>
       </div>

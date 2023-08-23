@@ -7,7 +7,7 @@
 .WeatherForecastTemperaturesMin {
   opacity: 0.7;
 }
-.WeatherForecast .Icon {
+.Icon {
   display: block;
   width: 100px;
   height: 100px;
